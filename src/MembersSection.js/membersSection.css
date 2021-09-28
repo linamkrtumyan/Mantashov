@@ -1,0 +1,70 @@
+.members_section {
+  width: 99vw;
+  display: flex;
+  /* flex-wrap: nowrap; */
+}
+
+.members_container {
+  width: 100vw;
+  height: 250px;
+  /* background-color: white; */
+  /* position: absolute; */
+  margin: 30px 10px 10px 30px;
+}
+.member_card {
+  background-image: url("../img/artashes.jpg");
+  background-repeat: repeat;
+  background-size: cover;
+  height: 320px;
+  background-position: center;
+  width: 250px;
+  cursor: pointer;
+}
+.member_img {
+  /* height: 200px; */
+}
+.member_text_container {
+  text-align: center;
+  position: absolute;
+  bottom: 1;
+  left: 0;
+  text-transform: uppercase;
+  font-size: 16px;
+  line-height: 13px;
+  width: 250px;
+  /* color: black; */
+}
+.ball_container {
+  position: absolute;
+  display: flex;
+  /* justify-content: center; */
+  width: 50%;
+  /* top: 0vw; */
+  padding-left: 57vw;
+  /* align-items: center; */
+  /* height: 100vh; */
+  /* z-index: 2; */
+}
+.ball {
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  background-image: linear-gradient(to bottom right, #ffe79d, #000000);
+  position: absolute;
+  z-index: 1;
+}
+.big_ball_container {
+  position: absolute;
+  display: flex;
+  padding-left: 67vw;
+  /* justify-content: flex-end; */
+  width: 50%;
+}
+.big_ball {
+  width: 300px;
+  height: 300px;
+  border-radius: 100%;
+  background-image: linear-gradient(to bottom left, #ffe79d, #000000);
+  position: absolute;
+  z-index: 1;
+}
